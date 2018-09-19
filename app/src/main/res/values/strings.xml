@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">PrimeraAplicacion</string>
+    <string name="lbl_name">Nombre</string>
+    <string name="lbl_surname">Apellidos</string>
+    <string name="kindly">Educado</string>
+    <string name="btn_text">Saludar</string>
+</resources>
