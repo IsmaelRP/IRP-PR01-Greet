@@ -1,7 +1,10 @@
 <resources>
-    <string name="app_name">PrimeraAplicacion</string>
-    <string name="lbl_name">Nombre</string>
-    <string name="lbl_surname">Apellidos</string>
-    <string name="kindly">Educado</string>
-    <string name="btn_text">Saludar</string>
+    <string name="app_name">First App</string>
+    <string name="lbl_name">Name</string>
+    <string name="lbl_surname">Surname</string>
+    <string name="btn_text">Greetings</string>
+    <string name="btn_reset">Reset</string>
+    <string name="greeting1">Welcome, %1$s %2$s</string>
+    <string name="greeting2">Welcome, Mr/Mrs %1$s %2$s</string>
+    <string name="kindly">Polite</string>
 </resources>

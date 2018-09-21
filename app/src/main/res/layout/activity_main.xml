@@ -8,9 +8,9 @@
 
 
     <TextView
-        android:textSize="7mm"
+        android:textSize="20sp"
         android:text="@string/lbl_name"
-        android:paddingTop="10mm"
+        android:paddingTop="10dp"
         android:layout_gravity="center_horizontal"
         android:id="@+id/lblName"
         android:layout_width="wrap_content"
@@ -20,13 +20,14 @@
         android:id="@+id/txt_name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:paddingTop="10mm"
-        android:layout_gravity="center_horizontal" />
+        android:paddingTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:inputType="textPersonName" />
 
     <TextView
-        android:textSize="7mm"
+        android:textSize="20sp"
         android:text="@string/lbl_surname"
-        android:paddingTop="10mm"
+        android:paddingTop="10dp"
         android:layout_gravity="center_horizontal"
         android:id="@+id/lblSurname"
         android:layout_width="wrap_content"
@@ -36,28 +37,35 @@
         android:id="@+id/txt_surname"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:paddingTop="10mm"
-        android:layout_gravity="center_horizontal" />
+        android:paddingTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:inputType="textPersonName" />
 
-    <!--<CheckBox-->
-        <!--android:id="@+id/checkbox_kindly"-->
-        <!--android:layout_width="wrap_content"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:text="@string/kindly"-->
-        <!--android:onClick="onCheckboxClicked"/>-->
+    <CheckBox
+        android:id="@+id/checkbox_kindly"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/kindly" />
 
     <Button
         android:id="@+id/btn_greetings"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/btn_text"
-        android:onClick="greetings"/>
+        android:layout_gravity="center_horizontal" />
 
-    <EditText
-        android:id="@+id/txt_response"
+    <Button
+        android:id="@+id/btn_reset"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:paddingTop="10mm"
+        android:text="@string/btn_reset"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/lbl_response"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
         android:layout_gravity="center_horizontal" />
 
 
